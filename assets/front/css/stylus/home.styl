@@ -1,0 +1,517 @@
+// ==========================================================================
+/******** HOME ********/
+// ==========================================================================
+
+.home
+	float left
+	
+.contenido
+//estilos en layout
+	
+	.bloque-home
+		width 100%
+		float left
+		margin-bottom 30px
+		
+.experiencias
+	background-color #000
+	float left
+	width 100%
+	
+	.page-header
+		margin -10px 0 20px 0
+		
+		h1
+			color #fff
+			font-size 40px
+			
+			i
+				color $naranja
+	
+	.timeline-vertical
+		list-style none
+		padding 20px 0 20px	
+		position relative
+		float left
+		
+		ul
+			li
+				float none !important
+				
+		.timeline-heading
+			h4
+				color $naranja
+				font-size 25px
+				
+			p
+				font-size 14px
+				border-top 1px solid rgba(0,0,0,.2)
+				border-bottom 1px solid rgba(0,0,0,.2)
+				margin-top 10px
+				margin-bottom 10px
+				padding 5px 0
+
+
+
+	.timeline-vertical:before 
+		top 0
+		bottom 0
+		position absolute
+		content " "	
+		width 3px
+		background-color #fff
+		left 50%
+		margin-left -1.5px
+
+
+	.timeline-vertical > li 
+		margin-bottom 20px
+		position relative
+		float left	!important
+
+
+	.timeline-vertical > li:before,
+	.timeline-vertical > li:after 
+		content " "
+		display table
+
+
+	.timeline-vertical > liafter 
+		clear both
+
+
+	.timeline-vertical > libefore,
+	.timeline-vertical > liafter 
+		content " "
+		display table
+
+
+	.timeline-vertical > liafter 
+		clear both
+
+
+	.timeline-vertical > li > .timeline-panel 
+		width 46%
+		float left
+		border 1px solid #000
+		border-radius 2px
+		padding 20px
+		position relative
+		-webkit-box-shadow 0 1px 6px rgba(0, 0, 0, 0.175)
+		box-shadow 0 1px 6px rgba(0, 0, 0, 0.175)
+		background-color #fff
+
+
+	.timeline-vertical > li > .timeline-panel:before 
+		position absolute
+		top 26px
+		right -15px
+		display inline-block
+		border-top 15px solid transparent
+		border-left 15px solid #000
+		border-right 0 solid #000
+		border-bottom 15px solid transparent
+		content " "
+
+
+	.timeline-vertical > li > .timeline-panel:after 
+		position absolute
+		top 27px
+		right -14px
+		display inline-block
+		border-top 14px solid transparent
+		border-left 14px solid #fff
+		border-right 0 solid #fff
+		border-bottom 14px solid transparent
+		content " "
+
+
+	.timeline-vertical > li > .timeline-badge 	
+		color #fff
+		width 50px
+		height 50px
+		line-height 50px
+		font-size 1.4em
+		text-align center
+		position absolute
+		top 16px
+		left 50%
+		margin-left -25px
+		background-color #999999
+		z-index 100
+		border-top-right-radius 50%
+		border-top-left-radius 50%
+		border-bottom-right-radius 50%
+		border-bottom-left-radius 50%
+		z-index 1
+		background-color $naranja
+
+
+	.timeline-vertical > li.timeline-inverted > .timeline-panel 
+		float right
+
+
+	.timeline-vertical > li.timeline-inverted > .timeline-panel:before 
+		border-left-width 0
+		border-right-width 15px
+		left -15px
+		right auto
+
+
+	.timeline-vertical > li.timeline-inverted > .timeline-panel:after 
+		border-left-width 0
+		border-right-width 14px
+		left -14px
+		right auto
+
+
+	.timeline-badge.primary 
+		background-color #2e6da4 !important
+
+
+	.timeline-badge.success 
+		background-color #3f903f !important
+
+
+	.timeline-badge.warning 
+		background-color #f0ad4e !important
+
+
+	.timeline-badge.danger 
+		background-color #d9534f !important
+
+
+	.timeline-badge.info 
+		background-color #5bc0de !important
+
+
+	.timeline-title 
+		margin-top 0
+		color inherit
+
+
+	.timeline-body > p,
+	.timeline-body > ul 
+		margin-bottom 0
+
+
+	.timeline-body > p + p 
+		margin-top 5px
+
+
+.portada
+	background-color #000
+	height 90vh
+	width 100%
+	position relative
+	border-bottom 30px $naranja solid
+	display none
+	
+	.vermas
+	
+		i
+			position absolute
+			left 50%
+			font-size 80px
+			bottom 0px
+			color #fff
+			margin-left -25px
+			transition all 300ms ease-out 5ms
+			-ms-transition all 300ms ease-out 5ms
+			-webkit-transition all 300ms ease-out 5ms
+			-ms-transition all 300ms ease-out 5ms
+			
+			&:hover, &:focus
+				font-size 100px
+				margin-left -32px
+		
+	.contenido
+		position absolute
+		top 50%
+		margin-top -250px
+		left 50%
+		margin-left -260px
+		padding 20px
+		
+		img
+			width 250px
+			display block
+			margin 0 auto
+		
+		h1
+			font-size 34px
+			letter-spacing 4px
+			color #fff
+			text-align center
+			width 100%
+			padding-top 10px
+			font-family 'Sarpanch', sans-serif
+		
+		h4
+			font-size 43px
+			color #FDDDBC
+			text-align center
+			width 100%
+			padding-top 10px
+			border-bottom 3px solid $naranja
+			padding-bottom 10px
+			font-family 'Aldrich', sans-serif
+			
+		p
+			font-size 20px
+			color #ffffff
+			margin-top: 20px
+			text-align center
+	
+.anchor
+	padding-top 70px
+	
+.skills
+	float left
+	width 100%
+	.block
+		padding 10px
+		.progress
+			.progress-bar
+				background-color $naranja
+				
+	.page-header
+		border-bottom 3px solid #000
+		border-top 3px solid
+		background-color #FFF7E6
+		float left
+		width 100%
+		padding 15% 0
+		margin 0
+		background-image url(/assets/front/images/home/skills-dark.jpg)
+		background-position center center
+		background-size cover
+		background-repeat no-repeat
+		
+		h1
+			color #fff
+			font-size 50px
+			font-weight bold
+			text-align left
+			
+			i
+				color $naranja
+		
+.estudios
+	float left
+	width 100%
+
+	.page-header
+		border-bottom 3px solid #000
+		background-color $naranja
+		float left
+		width 100%
+		padding 15% 0
+		margin -10px 20px 40px 0
+		background-image url(/assets/front/images/home/estudios-dark.jpg)
+		background-position center center
+		background-size cover
+		background-repeat no-repeat
+		
+		h1
+			color #fff
+			font-size 50px
+			font-weight bold
+			text-align left
+			
+			i
+				color $naranja
+			
+	.thumbnail
+		background-color transparent
+		border none
+		text-align center
+		
+		.caption
+			h3
+				color $naranja
+				
+		.content-img
+		
+			img
+				width 50%
+				margin 0 25%
+				border 4px solid #d1d1d1
+				border-radius 100%
+				
+			&:before
+				content "\f19d"
+				font normal normal normal 14px/1 FontAwesome
+				color $naranja
+				position: absolute
+				top: -10px
+				left: 55%
+				font-size: 40px
+
+
+/*animacion espacio"*/
+
+#space, .stars,.linear
+	overflow hidden
+	position absolute
+	top 0
+	bottom 0
+	left 0
+	right 0
+
+.stars
+	background-image radial-gradient(2px 2px at 20px 30px, #eee, rgba(0,0,0,0))
+	background-image radial-gradient(2px 2px at 40px 70px, #fff, rgba(0,0,0,0))
+	background-image radial-gradient(2px 2px at 50px 160px, #ddd, rgba(0,0,0,0)) 
+	background-image radial-gradient(2px 2px at 90px 40px, #fff, rgba(0,0,0,0))
+	background-image radial-gradient(2px 2px at 130px 80px, #fff, rgba(0,0,0,0))
+	background-image radial-gradient(2px 2px at 160px 120px, #ddd, rgba(0,0,0,0))
+	background-repeat repeat
+	background-size 200px 200px
+	animation zoom 5s infinite
+	opacity 0
+	&:nth-child(1)
+		background-position 50% 50%
+		animation-delay 0s
+	&:nth-child(2)
+		background-position 20% 60%
+		animation-delay 1s
+	&:nth-child(3)
+		background-position -20% -30%
+		animation-delay 2s
+	&:nth-child(4)
+		background-position 40% -80%
+		animation-delay 3s
+	&:nth-child(5)
+		background-position -20% 30%
+		animation-delay 4s
+
+@keyframes zoom
+	0% 
+	opacity 0
+	transform scale(0.5)
+	animation-timing-function ease-in
+
+	85%
+		opacity 1
+		transform scale(2.8)
+		animation-timing-function linear
+
+	100%
+		opacity 0
+		transform scale(3.5)
+	
+
+	
+// ==========================================================================
+/* RESPONSIVE - DEFAULT */
+// ==========================================================================
+
+/*mobile--------------------------------------------------*/
+@media screen and (min-width: 0px) and (max-width : 991px){
+
+	.portada{
+		background-image: none;
+		height: auto;
+	}
+	
+	.experiencias  .timeline-vertical > li > .timeline-panel{
+		width: 90%;
+		float: right;
+	}
+	
+	.experiencias  .timeline-vertical:before {
+			left: 20px;
+	}
+	
+	.experiencias  .timeline-vertical > li > .timeline-badge {
+			left: 20px;
+	}
+	
+	.experiencias  .timeline-vertical > li > .timeline-panel:before {
+		position: absolute;
+		top :26px;
+		right :-15px;
+		display :inline-block;
+		border-top :15px solid transparent;
+		border-left: 15px solid #ccc;
+		border-right: 0 solid #ccc;
+		border-bottom :15px solid transparent;
+		content: " ";
+		display: none;
+	}
+
+	.experiencias  .timeline-vertical > li > .timeline-panel:after {
+		position: absolute;
+		top: 27px;
+		right: -14px;
+		display :inline-block;
+		border-top :14px solid transparent;
+		border-left: 14px solid #fff;
+		border-right: 0 solid #fff;
+		border-bottom: 14px solid transparent;
+		content: " ";
+		display: none;
+	}
+	
+	.portada .contenido {
+	    position: relative;
+	    top: 0;
+	    margin-top: 0;
+	    left: 0;
+	    margin-left: 0;
+	    margin-bottom: 70px;
+    }
+    
+    .stars {
+	    -webkit-background-size: 169px 305px;
+	    -moz-background-size: 169px 305px;
+	    background-size: 169px 305px;
+	    -webkit-animation: zoom 5s infinite;
+	    -o-animation: zoom 2s infinite;
+	    -ms-animation: zoom 2s infinite;
+	    -moz-animation: zoom 2s infinite;
+	    animation: zoom 2s infinite;
+	}
+	
+	.skills .page-header{
+		padding: 40% 0;
+		background-image :url(/assets/front/images/home/skills-dark-mobile.jpg);
+	}	
+
+	.estudios .page-header{
+		padding: 40% 0;
+		background-image: url(/assets/front/images/home/estudios-dark-mobile.jpg);
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width : 991px){
+	
+
+}
+
+/*tablet----------------------------------------*/
+@media screen and (min-width: 991px) and (max-width : 1280px){
+
+}
+
+/**	TABLETS LANDSCAPE **/
+@media screen and (min-width: 771px) and (max-width : 900px){
+
+
+}
+
+/*notbook------------------------------------*/
+@media screen and (min-width: 1280px) and (max-width : 1800px){
+	
+}
+
+/*desktop------------------------------*/
+@media screen and (min-width: 1801px) and (max-width : 2200px){
+
+}
+
+/*desktop large-----------------------------------------------*/
+@media screen and (min-width: 2220px) and (max-width : 4000px){
+
+}

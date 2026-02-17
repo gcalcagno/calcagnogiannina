@@ -1,0 +1,361 @@
+// ==========================================================================
+/******** LAYOUT ********/
+// ==========================================================================
+body
+	font-family 'Didact Gothic', sans-serif
+	
+	
+	
+	
+//CONTENIDO - SIDEBAR----------------------------
+.contenedor
+	float left
+	width 80%
+	margin 0 10%
+	padding 0 30px
+	display none
+	
+	&.padding-top
+		padding-top 20px
+	
+	.contenido
+		float left
+		padding 15px 40px 15px 17px
+	
+	.subtitulo-general
+		font-size 20px
+		padding 20px 0
+		float left
+		width 100%
+		
+	.title-page
+		color: #fff
+		background-color #444444
+		border-color #666
+		padding: 20px 15px
+		border-radius 4px
+		margin-bottom 5px
+		
+		h3
+			.icon-title
+				color #fff
+				margin-right 15px
+				background-color $naranja
+				border-radius 100%
+				padding 10px
+				height 40px
+				width 40px
+				font-size 20px	
+				
+	.padding-block
+		padding 20px !important
+	
+	.btn-naranja
+		background-color $naranja
+		color #fff
+		font-weight bold
+		border-color $naranja
+		height 40px
+		
+		i
+			color #fff !important
+		
+	.sidebar
+		float right
+		padding 15px 0
+		
+		.subtitulo-general
+			font-size 14px
+			padding 10px
+			margin-bottom 10px
+			float left
+			width 100%
+			border 1px solid #999999
+		
+		.login
+			margin-bottom 20px
+			float left
+			width 100%
+			
+			.btn
+				width 100%
+				float left
+			
+			.btn:hover, .btn:focus
+				background-color $naranja-dark
+				color #fff
+				
+			.lnk
+				width 100%
+				color $naranja
+				margin-top 10px
+				float left
+				font-weight bold
+				text-align center
+			
+			.lnk2
+				width 100%
+				color #666
+				margin-top 10px
+				font-size 10px
+				float left
+				font-weight bold
+				text-align center
+		
+			
+		.articulos
+			float left	
+			
+			a
+				color #000
+			
+			a:hover
+				opacity .8
+			
+			.imagen
+				border 1px solid rgba(134,134,134,0.3)
+			
+			.titulo-multiple
+				width 100%
+				border-bottom 1px solid gris7
+				margin-bottom 10px
+				
+				h3
+					color white
+					font-size 11px
+					text-align center
+					padding 5px
+					font-family Arvo-Bold
+				
+				.subtitulo-a
+					width 45%
+					float left
+					background-color gris7
+					
+				.subtitulo-b
+					width 45%
+					margin-left 5px
+					float left
+					background-color gris4
+			
+
+//SLIDER HOME ----------------------------
+.slider-home
+	background-color gris1
+	height 250px
+
+
+
+//FOOTER----------------------------
+.footer
+	background-color #222
+	position absolute
+	bottom 0
+	width 100%
+	
+	.copyright
+		background-color gris10
+		padding 5px 0
+		
+		.contenido
+			display block
+			margin 0 auto
+			float none
+			padding 5px 30px
+			
+			p
+				font-size 10px
+				color gris3
+			
+			.email
+				float right
+				text-align right
+				font-size 10px
+				color gris3
+				
+				p
+					float right
+			
+				.glyphicon
+					padding 2px 5px 0 0
+					float right
+// ==========================================================================
+/* RESPONSIVE - LAYOUT */
+// ==========================================================================
+
+/*mobile--------------------------------------------------*/
+@media screen and (min-width: 0px) and (max-width : 767px){
+	.contenedor {
+	    width: 94%;
+	    margin: 0 3%;
+	    padding: 0px;
+	}
+
+	.contenedor .contenido {
+	    padding: 15px 0px 15px 0px !important;
+	}
+
+	.head .menu .contenedor {
+	  width: 100%;
+	  margin: 0;
+	}
+	
+	.contenedor .sidebar {
+	    padding-top: 0;
+	}
+	
+	.bloque-novedades .bloque-b {
+	    padding-left: 0 !important;
+	    padding-top: 30px !important;
+	}
+	
+	.bloque-novedades .bloque-a {
+	    padding-right: 0px !important;
+	    border-right: none !important;
+	}
+	
+	.bloque-posteos-relacionados .posteos .item {
+	    padding: 0px 0px 25px 0px!important;
+	}
+	
+	.head .menu .contenedor .buscar {
+	  width: 60%;
+	  position: absolute;
+	  top: 0;
+	  right: 10px;
+	}
+	
+	.head .menu .contenedor .navbar-collapse {
+	  width: 100%;
+	}
+
+	//footer
+	.footer .copyright .contenido .email p {
+	  width: 70%;
+	  text-align: left;
+	}
+	
+	.footer .copyright .contenido .email .glyphicon {
+	  width: 30%;
+	  text-align: right;
+	}
+	
+	.footer .copyright .contenido .email {
+	  padding-bottom: 10px;
+	}
+	
+	.footer .clientes .carousel .row .span3 {
+	  width: 100%;
+	}
+	
+	.titulo-multiple h3 {
+	    height: 25px !important;
+	    font-size: 12px !important;
+	}
+}
+
+/**  MOBILE DISPOSITIVO **/
+@media device and (min-width: 0px) and (max-width : 767px){
+	
+}
+
+/*tablet----------------------------------------*/
+@media screen and (min-width: 768px) and (max-width : 1280px){
+	.head .menu .contenedor {
+	  width: 90%;
+	  margin: 0 5%;
+	}
+	
+	.contenedor {
+	    width: 90%;
+	    margin: 0 5%;
+	    padding: 0px;
+	}
+}
+
+/**  TABLETS LANDSCAPE **/
+@media screen and (min-width: 700px) and (max-width : 900px){
+	.head .menu .contenedor {
+	  width: 100%;
+	  margin: 0%;
+	}
+	
+	.contenedor {
+	    width: 94%;
+	    margin: 0 3%;
+	    padding: 0px;
+	}
+	
+
+	.contenedor .contenido {
+	    padding: 15px 0px 15px 0px !important;
+	    width: 100%;
+	}
+
+	//head
+	
+	.head .menu .contenedor {
+	  width: 100%;
+	  margin: 0;
+	}
+	
+	.contenedor .sidebar {
+	    padding-top: 0;
+	    width: 100%;
+	}
+	
+	.head .menu .contenedor .buscar {
+	  width: 20%;
+	  position: absolute;
+	  top: 0;
+	  right: 10px;
+	}
+	
+	.head .menu .contenedor .navbar-collapse {
+	  width: 100%;
+	}
+
+	//footer
+	.footer .copyright .contenido .email p {
+	  width: 70%;
+	  text-align: left;
+	}
+	
+	.footer .copyright .contenido .email .glyphicon {
+	  width: 30%;
+	  text-align: right;
+	}
+	
+	.footer .copyright .contenido .email {
+	  padding-bottom: 10px;
+	}
+	
+	.footer .clientes .carousel .row .span3 {
+	  width: 100%;
+	}
+}
+
+/*notbook------------------------------------*/
+@media screen and (min-width: 1280px) and (max-width : 1800px){
+	
+}
+
+/*desktop------------------------------*/
+@media screen and (min-width: 1801px) and (max-width : 2200px){
+
+}
+
+/*desktop large-----------------------------------------------*/
+@media screen and (min-width: 2220px) and (max-width : 4000px){
+
+}
+.carousel-inner .active.left { left: -33%; }
+.carousel-inner .next        { left:  33%; }
+.carousel-inner .prev        { left: -33%; }
+.carousel-control.left,.carousel-control.right {background-image:none;}
+
+@media (min-width: 992px ) {
+    .carousel-inner .active.left { left: -16.7%; }
+    .carousel-inner .next        { left:  16.7%; }
+    .carousel-inner .prev        { left: -16.7%; }  
+}
