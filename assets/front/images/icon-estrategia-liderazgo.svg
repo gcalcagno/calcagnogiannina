@@ -1,0 +1,30 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <clipPath id="circle">
+      <circle cx="256" cy="256" r="256"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#circle)">
+
+  <circle cx="256" cy="256" r="248" fill="#0A1510"/>
+  <circle cx="256" cy="256" r="248" fill="none" stroke="#22C55E" stroke-width="20"/>
+  <!-- Hat brim ellipse -->
+  <ellipse cx="256" cy="224" rx="140" ry="32" fill="none" stroke="#FFFFFF" stroke-width="12"/>
+  <!-- Hat dome -->
+  <path d="M 140 224 Q 128 170 256 148 Q 384 170 372 224" fill="none" stroke="#FFFFFF" stroke-width="12"/>
+  <!-- Circuit lines below hat -->
+  <line x1="256" y1="256" x2="256" y2="306" stroke="#FFFFFF" stroke-width="10"/>
+  <line x1="140" y1="306" x2="372" y2="306" stroke="#FFFFFF" stroke-width="10"/>
+  <!-- Left branch -->
+  <line x1="140" y1="306" x2="140" y2="370" stroke="#FFFFFF" stroke-width="10"/>
+  <!-- Center branch -->
+  <line x1="256" y1="306" x2="256" y2="370" stroke="#FFFFFF" stroke-width="10"/>
+  <!-- Right branch -->
+  <line x1="372" y1="306" x2="372" y2="370" stroke="#FFFFFF" stroke-width="10"/>
+  <!-- End nodes -->
+  <circle cx="140" cy="374" r="18" fill="#22C55E" stroke="#FFFFFF" stroke-width="8"/>
+  <circle cx="256" cy="374" r="18" fill="#22C55E" stroke="#FFFFFF" stroke-width="8"/>
+  <circle cx="372" cy="374" r="18" fill="#22C55E" stroke="#FFFFFF" stroke-width="8"/>
+
+  </g>
+</svg>

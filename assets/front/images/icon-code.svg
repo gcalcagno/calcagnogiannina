@@ -1,0 +1,22 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black circle background -->
+  <circle cx="256" cy="256" r="256" fill="#0D0D0D"/>
+
+  <!-- Grey ring matching set style -->
+  <circle cx="256" cy="256" r="248" fill="none" stroke="#888888" stroke-width="20"/>
+
+  <!-- < left bracket -->
+  <polyline points="170,160 80,256 170,352"
+    fill="none" stroke="#FFFFFF" stroke-width="44"
+    stroke-linecap="square" stroke-linejoin="miter"/>
+
+  <!-- / slash -->
+  <line x1="290" y1="148" x2="222" y2="364"
+    stroke="#FFFFFF" stroke-width="44"
+    stroke-linecap="square"/>
+
+  <!-- > right bracket -->
+  <polyline points="342,160 432,256 342,352"
+    fill="none" stroke="#FFFFFF" stroke-width="44"
+    stroke-linecap="square" stroke-linejoin="miter"/>
+</svg>

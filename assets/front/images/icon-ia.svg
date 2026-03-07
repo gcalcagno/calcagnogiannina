@@ -1,0 +1,37 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <clipPath id="circle">
+      <circle cx="256" cy="256" r="256"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#circle)">
+
+  <circle cx="256" cy="256" r="248" fill="#0A1414"/>
+  <circle cx="256" cy="256" r="248" fill="none" stroke="#2DD4BF" stroke-width="20"/>
+  <!-- Network lines -->
+  <line x1="256" y1="256" x2="150" y2="152" stroke="#666" stroke-width="6"/>
+  <line x1="256" y1="256" x2="362" y2="152" stroke="#666" stroke-width="6"/>
+  <line x1="256" y1="256" x2="80" y2="256" stroke="#666" stroke-width="6"/>
+  <line x1="256" y1="256" x2="432" y2="256" stroke="#666" stroke-width="6"/>
+  <line x1="256" y1="256" x2="150" y2="360" stroke="#666" stroke-width="6"/>
+  <line x1="256" y1="256" x2="362" y2="360" stroke="#666" stroke-width="6"/>
+  <!-- Outer connections -->
+  <line x1="150" y1="152" x2="362" y2="152" stroke="#666" stroke-width="6"/>
+  <line x1="80" y1="256" x2="150" y2="152" stroke="#666" stroke-width="6"/>
+  <line x1="432" y1="256" x2="362" y2="152" stroke="#666" stroke-width="6"/>
+  <line x1="80" y1="256" x2="150" y2="360" stroke="#666" stroke-width="6"/>
+  <line x1="432" y1="256" x2="362" y2="360" stroke="#666" stroke-width="6"/>
+  <line x1="150" y1="360" x2="362" y2="360" stroke="#666" stroke-width="6"/>
+  <!-- Outer nodes -->
+  <circle cx="150" cy="152" r="20" fill="#444"/>
+  <circle cx="362" cy="152" r="20" fill="#444"/>
+  <circle cx="80" cy="256" r="20" fill="#444"/>
+  <circle cx="432" cy="256" r="20" fill="#444"/>
+  <circle cx="150" cy="360" r="20" fill="#444"/>
+  <circle cx="362" cy="360" r="20" fill="#444"/>
+  <!-- AI chip center -->
+  <rect x="196" y="196" width="120" height="120" rx="20" fill="#1a1a1a" stroke="#FFFFFF" stroke-width="10"/>
+  <text x="256" y="275" font-family="Arial Black, Arial" font-size="56" font-weight="900" fill="#FFFFFF" text-anchor="middle">AI</text>
+
+  </g>
+</svg>

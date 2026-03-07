@@ -1,0 +1,24 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <clipPath id="circle">
+      <circle cx="256" cy="256" r="256"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#circle)">
+
+  <circle cx="256" cy="256" r="248" fill="#0D0D0D"/>
+  <circle cx="256" cy="256" r="248" fill="none" stroke="#FFD700" stroke-width="20"/>
+  <!-- Clipboard body -->
+  <rect x="104" y="136" width="304" height="310" rx="22" fill="#FFD700"/>
+  <!-- Clip/holder top -->
+  <rect x="188" y="106" width="136" height="64" rx="18" fill="#FFD700" stroke="#0D0D0D" stroke-width="10"/>
+  <rect x="210" y="112" width="92" height="30" rx="10" fill="#0D0D0D" opacity="0.25"/>
+  <!-- Lines on clipboard -->
+  <rect x="132" y="218" width="248" height="22" rx="8" fill="#0D0D0D" opacity="0.3"/>
+  <rect x="132" y="256" width="200" height="22" rx="8" fill="#0D0D0D" opacity="0.3"/>
+  <rect x="132" y="294" width="220" height="22" rx="8" fill="#0D0D0D" opacity="0.3"/>
+  <!-- Checkmark large -->
+  <polyline points="156,368 210,422 356,310" stroke="white" stroke-width="28" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  </g>
+</svg>

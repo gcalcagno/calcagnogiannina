@@ -1,0 +1,35 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <clipPath id="circle">
+      <circle cx="256" cy="256" r="256"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#circle)">
+
+  <defs>
+    <linearGradient id="jiraG1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2684FF"/>
+      <stop offset="60%" stop-color="#0065FF"/>
+      <stop offset="100%" stop-color="#0052CC"/>
+    </linearGradient>
+    <linearGradient id="jiraG2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2684FF"/>
+      <stop offset="100%" stop-color="#0052CC"/>
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="248" fill="#FFFFFF"/>
+  <circle cx="256" cy="256" r="248" fill="none" stroke="#1a1a1a" stroke-width="14"/>
+  <!-- Jira diamond logo centered - bigger -->
+  <!-- Main top diamond -->
+  <path d="M256 110 L356 210 L256 240 L156 210 Z" fill="url(#jiraG1)"/>
+  <!-- Right lower -->
+  <path d="M256 240 L356 210 L256 310 Z" fill="#0052CC"/>
+  <!-- Left lower -->
+  <path d="M256 240 L156 210 L256 310 Z" fill="url(#jiraG2)"/>
+  <!-- Inner white diamond -->
+  <path d="M256 160 L302 210 L256 236 L210 210 Z" fill="white" opacity="0.88"/>
+  <!-- Jira Software text -->
+  <text x="256" y="400" font-family="'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="600" fill="#444" text-anchor="middle">Jira Software</text>
+
+  </g>
+</svg>

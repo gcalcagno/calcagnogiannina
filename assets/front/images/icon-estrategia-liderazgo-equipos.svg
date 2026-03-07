@@ -1,0 +1,29 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <clipPath id="circle">
+      <circle cx="256" cy="256" r="256"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#circle)">
+
+  <circle cx="256" cy="256" r="248" fill="#0A1510"/>
+  <circle cx="256" cy="256" r="248" fill="none" stroke="#22C55E" stroke-width="20"/>
+  <!-- Process box top -->
+  <rect x="60" y="110" width="240" height="100" rx="12" fill="none" stroke="#FFFFFF" stroke-width="12"/>
+  <!-- Process box bottom -->
+  <rect x="212" y="300" width="240" height="100" rx="12" fill="none" stroke="#FFFFFF" stroke-width="12"/>
+  <!-- Arrow from box1 right-down -->
+  <path d="M 300 210 L 300 270 L 420 270" stroke="#FFFFFF" stroke-width="10" fill="none"/>
+  <polygon points="420,252 452,270 420,288" fill="#FFFFFF"/>
+  <!-- Arrow from box2 left-up -->
+  <path d="M 212 350 L 92 350 L 92 280" stroke="#FFFFFF" stroke-width="10" fill="none"/>
+  <polygon points="74,280 92,248 110,280" fill="#FFFFFF"/>
+  <!-- Green dots/nodes in center -->
+  <circle cx="208" cy="262" r="16" fill="#22C55E"/>
+  <circle cx="256" cy="242" r="16" fill="#22C55E"/>
+  <circle cx="304" cy="262" r="16" fill="#22C55E"/>
+  <line x1="208" y1="262" x2="256" y2="242" stroke="#22C55E" stroke-width="8"/>
+  <line x1="256" y1="242" x2="304" y2="262" stroke="#22C55E" stroke-width="8"/>
+
+  </g>
+</svg>

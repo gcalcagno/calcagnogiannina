@@ -1,0 +1,21 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <clipPath id="circle">
+      <circle cx="256" cy="256" r="256"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#circle)">
+
+  <circle cx="256" cy="256" r="248" fill="#0D0D0D"/>
+  <circle cx="256" cy="256" r="248" fill="none" stroke="#F87171" stroke-width="20"/>
+  <!-- Mountain big center -->
+  <polygon points="256,100 120,340 392,340" fill="#F87171"/>
+  <!-- Mountain small left -->
+  <polygon points="130,340 80,340 158,230" fill="#F87171" opacity="0.7"/>
+  <!-- Flag pole -->
+  <line x1="256" y1="100" x2="256" y2="58" stroke="#F87171" stroke-width="12" stroke-linecap="round"/>
+  <!-- Flag -->
+  <polygon points="256,58 318,82 256,106" fill="#F87171"/>
+
+  </g>
+</svg>
